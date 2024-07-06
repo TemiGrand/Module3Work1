@@ -6,7 +6,6 @@ def count_calls():
 
 def string_info(string: str):
     count_calls()
-
     str_var = len(string), string.upper(), string.lower()
     return str_var
 
